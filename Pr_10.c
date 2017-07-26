@@ -14,19 +14,19 @@ printf ("\nEnter the value of c-");
 scanf ("%f",&c);
 
 if (a>b&&b>c)
-{
+
 
 printf(" max: a %f  ",a);
-}
-else if (b>a&&b>c)
 
-{printf("max: b %f ",b);
-}
+else if (b>c&&b>a)
+
+printf("max: b %f ",b);
+
 else if (c>b&&c>a)
-{
+
 
 printf("max: c %f ",c);
-}
+
 
 
 
